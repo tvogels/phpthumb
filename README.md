@@ -10,7 +10,7 @@ Add the following lines to your `deps` file:
 	   git=http://github.com/tvogels/phpthumb.git
 	   target=phpthumb
 
-And those to app/
+And those to `app/`:
 
 ```php
 $loader->registerPrefixes(array(
