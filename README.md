@@ -1,4 +1,4 @@
-PHPThumb for use with Symfony2
+PhpThumb for use with Symfony2
 ==============================
 
 Setup
@@ -17,6 +17,8 @@ $loader->registerPrefixes(array(
     ...
     'PhpThumb_'        => __DIR__.'/../vendor/phpthumb/lib',
 ```
+
+Now run `php bin/vendors update` or `php bin/vendors install`.
 
 Usage
 -----
